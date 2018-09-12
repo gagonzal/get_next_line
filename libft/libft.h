@@ -6,7 +6,7 @@
 /*   By: gagonzal <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/14 14:50:55 by gagonzal          #+#    #+#             */
-/*   Updated: 2017/11/28 19:50:08 by gagonzal         ###   ########.fr       */
+/*   Updated: 2018/09/12 18:12:10 by gagonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 typedef struct		s_list
 {
 	void			*content;
+	int				fd;
 	size_t			content_size;
 	struct s_list	*next;
 }					t_list;
